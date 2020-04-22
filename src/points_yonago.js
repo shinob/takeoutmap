@@ -2,12 +2,29 @@
 var lat = 35.4281791;
 var lng = 133.331021;
 
+var init_zoom = 13;
+
 function load_points() {
     
     return [
 /*
         [[],	"", ""],
+        [[],	"", ""],
+        [[],	"", ""],
+        [[],	"", ""],
+        [[],	"", ""],
+        [[],	"", ""],
+        [[],	"", ""],
+        [[],	"", ""],
+        [[],	"", ""],
+        [[],	"", ""],
+        [[],	"", ""],
+        [[],	"", ""],
+        [[],	"", ""],
 */
+        [[35.4387099, 133.3282318],	"Casual Kitchen Take", "https://www.instagram.com/casual_kitchen_take/"],
+        [[35.438725, 133.3090351],	"LD.cafe", "https://www.instagram.com/ld.cafe/"],
+        [[35.4255498, 133.3315372],	"串揚げ 串坊主", "https://www.instagram.com/nonoyakushibouzu/"],
         [[35.4495782, 133.3152237],	"あぷりこ", "https://www.instagram.com/aplico_2017/"],
         [[35.424418, 133.333667],	"日々の糧", "https://www.instagram.com/hibinokateyonago/"],
         [[35.4301703, 133.3311164],	"カフェ ザ パーク 米子", "https://www.instagram.com/cafethepark_yonago/"],
