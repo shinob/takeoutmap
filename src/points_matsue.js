@@ -2,9 +2,21 @@
 var lat = 35.468606;
 var lng = 133.059026;
 
+var init_zoom = 14;
+
 function load_points() {
     
     return [
+/*
+        [[],	"", ""],
+        [[],	"", ""],
+        [[],	"", ""],
+        [[],	"", ""],
+        [[],	"", ""],
+        [[],	"", ""],
+*/
+        [[35.4081611, 132.9057919],	"くじら軒", "https://www.facebook.com/ken.kujira"],
+        
         [[35.4625916, 133.0640106],	"うちごはん希", "https://www.facebook.com/uchigohannozomi11/"],
         [[35.464024, 133.065493],	"（有）神戸屋", "https://goo.gl/maps/mC2MoWAt9SR8q9KZ9"],
         [[35.469354, 133.054263],	"食酒処 かわばた", "https://r.gnavi.co.jp/9cvrwa2r0000/"],
@@ -45,7 +57,7 @@ function load_points() {
         [[35.4658015, 133.0590312],	"Pizzeria UWOZA", "https://www.facebook.com/uwoza/"],
         [[35.4973111, 133.0810347],	"織香瑠", "https://tabelog.com/shimane/A3201/A320101/32001788/"],
         [[35.454253, 133.050659],	"Cafe ailes", "https://www.facebook.com/cafeailes/"],
-        [[35.4712538, 133.0553258],	"ぼうげつ", "https://www.facebook.com/bougetsu/"],
+	    [[35.4712538, 133.0553258],	"ぼうげつ", "https://www.facebook.com/bougetsu/"],
         [[35.4735519, 133.0542306],	"Green's Baby（グリーンズベイビー）", "https://www.facebook.com/greensbaby"],
         [[35.4621815, 133.0580281],	"カメノ食堂", "https://www.facebook.com/kamekamekameno"],
         
