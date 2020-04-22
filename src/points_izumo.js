@@ -2,9 +2,22 @@
 var lat = 35.360870;
 var lng = 132.756664;
 
+var init_zoom = 12;
+
 function load_points() {
     
     return [
+/*
+        [[],	"", ""],
+        [[],	"", ""],
+        [[],	"", ""],
+        [[],	"", ""],
+        [[],	"", ""],
+        [[],	"", ""],
+*/
+        [[35.3728538, 132.7660418],	"お好み焼肉 道とん堀 出雲店", "http://www.dohtonbori.co.jp/okonomiyakiniku/"],
+        [[35.377177, 132.7523618],	"焼肉の藤増", "https://fujimasu.jp/eating/"],
+        [[35.363442, 132.756313],	"IZAKAYA 海坊主", "https://www.facebook.com/umibouzuaoriri/"],
         [[35.362202, 132.7430118],	"トロントセット", "https://www.facebook.com/トロントセット-1916000211978407/"],
         [[35.399901, 132.6831172],	"山太", "https://www.facebook.com/山太santa-230036527187629/"],
         
