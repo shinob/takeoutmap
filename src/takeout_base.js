@@ -18,18 +18,46 @@ var baseMaps = {
 var list = "";
 var m = [];
 
+var init_zoom = 14;
+
 var mymap;
     
 function create_takeout() {
 
+	init_map();
+    add_points();
+    
+}
+
+function create_form() {
+	
+	init_map();
+	m = L.marker([lat, lng]).addTo(mymap);
+	
+	function onMapClick(e) {
+		//alert("You clicked the map at " + e.latlng);
+		m.setLatLng(e.latlng);
+		document.frm_add.latlng.value = e.latlng;
+	}
+	
+	mymap.on('click', onMapClick);
+	
+}
+
+function init_map() {
+	
     mymap = L.map('mapid', {
         layers: [newmap]
     });
 
     L.control.layers(baseMaps).addTo(mymap);
 
-    mymap.setView([lat, lng], 14);
+    mymap.setView([lat, lng], init_zoom);
     
+}
+
+function add_points() {
+	
     points = load_points();
 
     for (i=0; i<points.length; i++) {
@@ -57,4 +85,5 @@ function moveTo(latlng, i) {
     mymap.setView(latlng, 17);
     m[i].openPopup();
 }
+
 
