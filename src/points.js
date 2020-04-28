@@ -8,10 +8,10 @@ function load_points() {
     
     return [
 /*
-        [[],	"", ""],
+        [[],	"", "", ""],
 */
-        [[35.4658345, 133.0599149],	"[Name of shop]","https://www.google.com"],
-        [[35.373385, 132.7359618],	"[Name of Shop]", "https://www.microsoft.com"]
+        [[35.4658345, 133.0599149],	"[Name of shop]","https://www.google.com", "0000-00-0000"],
+        [[35.373385, 132.7359618],	"[Name of Shop]", "https://www.microsoft.com", "0000-00-0000"]
     ];
     
 }
